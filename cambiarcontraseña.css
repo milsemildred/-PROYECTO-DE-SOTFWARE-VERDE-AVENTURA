@@ -1,0 +1,62 @@
+body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #a2c380;
+    }
+    
+    header {
+      background: #388e3c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    header h1 {
+      margin: 0;
+    }
+    
+    .change-password-container {
+      background: white;
+      width: 80%;
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    
+    .change-password-container h2 {
+      text-align: center;
+      color: #388e3c;
+      margin-bottom: 20px;
+    }
+    
+    .change-password-container label {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    
+    .change-password-container input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    
+    .change-password-container button {
+      width: 100%;
+      padding: 12px;
+      background-color: #388e3c;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .change-password-container button:hover {
+      background-color: #2c6f2f;
+    }

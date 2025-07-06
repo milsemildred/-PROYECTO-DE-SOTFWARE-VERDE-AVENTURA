@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserva de Actividades</title>
+  <link rel="stylesheet" href="reservaactividad.css">
+</head>
+<body>
+
+  <header>
+    <h1>Reserva de Actividades - Verde Aventura</h1>
+  </header>
+
+  <section class="reservation-container">
+    <h2>Selecciona tu actividad y realiza la reserva</h2>
+    <form id="reservation-form">
+      <label for="activity">Actividad de Ruta</label>
+      <select id="activity" required>
+        <option value="">Selecciona una actividad</option>
+        <option value="senderismo">Senderismo</option>
+        <option value="ciclismo">Ciclismo</option>
+        <option value="kayak">Kayak</option>
+        <option value="escalada">Escalada</option>
+      </select>
+
+      <label for="date">Fecha</label>
+      <input type="date" id="date" required>
+
+      <label for="time">Hora</label>
+      <input type="time" id="time" required>
+
+      <button type="button" onclick="checkAvailability()">Consultar Disponibilidad</button>
+
+      <p id="availability-status"></p>
+
+      <button type="submit" id="confirm-button" style="display: none;">Confirmar Reserva</button>
+    </form>
+  </section>
+
+  <script src="MenuOpciones.html"></script>
+
+</body>
+</html>
